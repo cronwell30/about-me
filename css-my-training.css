@@ -1,0 +1,91 @@
+.container{
+  color: aliceblue;
+  font-size: x-large;
+}
+@media (min-width:900px) {
+  .container {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 190px;
+  }
+
+  .head{
+    font-size: 100px;
+    grid-column: 1/5;
+    text-align: center;
+    text-decoration: underline aliceblue;
+  }
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  img:hover{
+    margin-left: -50px;
+  }
+
+  .sec{
+    grid-column: 1/4;
+    font-size: x-large;
+  }
+
+  .bach{
+    font-size: x-large;
+    grid-column: 1/4;
+  }
+
+  .mich{
+    font-size: x-large;
+    grid-column: 1/4;
+  }
+}
+
+@media (max-width:899px){
+  .container {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+  }
+
+  .head{
+    text-align: center;
+    text-decoration: underline aliceblue;
+    font-size: 80px;
+    grid-column: 1/4;
+  }
+
+  .sec{
+    font-size: 20px;
+    grid-column: 1/4;
+  }
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .img1{
+    grid-column: 2/3;
+  }
+
+  .bach{
+    font-size: 20px;
+    grid-column: 1/4;
+  }
+
+  .img2{
+    grid-column: 2/3;
+  }
+
+  .mich{
+    font-size: 20px;
+    grid-column: 1/4;
+  }
+
+  .img3{
+    grid-column: 2/3;
+  }
+}

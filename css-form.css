@@ -1,0 +1,10 @@
+.form-elements{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  background: rgb(54, 52, 52);
+  margin: 0 0 25px;
+  padding: 10px;
+  border-radius: 35px 35px 35px 35px;
+}
